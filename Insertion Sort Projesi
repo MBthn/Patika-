@@ -1,0 +1,19 @@
+[22,27,16,2,18,6] dizisinin Insertion Sort Aşamaları:
+
+[22,27,16,2,18,6]---> En küçük eleman ilk sıradaki eleman ile yer değiştirir.
+
+[2,27,16,22,18,6]---> En küçük eleman ikinci sıradaki eleman ile yer değiştirir.
+
+[2,6,16,22,18,27]---> 3. Eleman için aynı adım tekrarlanır.
+
+[2,6,16,18,22,27]---> 4. Eleman için aynı adım tekrarlanır.
+
+Big-O gözterimi:
+
+n*(n-1)/2 = n^2
+
+Time Complexity:
+
+Average case---> Aranan sayı 16 veya 18 ise Worst case---> Aranan sayı 27 ise Best case---> Aranan sayı 2 ise
+
+Bu durumda 18 average case kapsamındadır.
